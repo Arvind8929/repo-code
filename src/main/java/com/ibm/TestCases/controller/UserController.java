@@ -10,7 +10,6 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-
     @GetMapping(value = "/employee")
     public String getEmployees() throws Exception {
         String user = null;
